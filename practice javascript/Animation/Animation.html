@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="Animation.css">
+    <style>
+          section{
+            width:200px;
+            height: 200px;
+            margin: 250px auto;
+          }
+        .container{
+            width:600px;
+            height: 300px;
+            border: 2px solid;
+        }
+          i{
+            animation-name: car;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+          }
+          @keyframes car{
+            0%{
+                transform: translateX(0);
+            }
+            25%{
+                transform: translate(600px);
+            }
+            50%{
+                transform: translate(610px ,350px);
+            }
+            75%{
+                transform: translate(-70px,350px);
+            }
+            100%{
+                transform: translate(-70px , 0px);
+            }
+          }
+    </style>
+</head>
+<body>
+      <section>
+        <i class="fa-solid fa-car-side" style="font-size: 50px;" ></i>
+        <div class="container">
+
+        </div>
+      </section>
+       
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=|, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      section {
+        height: 500px;
+        width: 350px;
+        border: 1px solid;
+        margin: 0% auto;
+        background-color: #6d6c6c;
+        padding: 10px;
+      }
+      input {
+        height: 50px;
+        width: 300px;
+        border: 1px solid;
+        position: relative;
+        top: 30px;
+        border-radius: 10px;
+        left: 16px;
+        font-size: 40px; 
+        box-shadow: inset gray 0px 0px 40px -12px; 
+        background-color: #ecf5f5;
+        
+      }
+      input::placeholder{
+        text-align: end;
+        margin-right: 10px;
+      }
+      .box {
+        height: 80px;
+        width: 21%;
+        border: 1px solid;
+        position: relative;
+        top: 70px;
+        box-sizing: border-box;
+        font-weight: 800;
+        font-size: 50px;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        box-shadow: 3px 3px;
+        box-shadow: inset gray 5px 5px 40px -12px; 
+        background-color: #ffffff;
+      }
+      .box:hover{
+        background-color:gray;
+      }
+      div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      #box-color {
+        background-color: rgb(252, 164, 0);
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <input type="input" placeholder="0" />
+      <div>
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box" id="box-color">/</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box" id="box-color">*</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box" id="box-color">-</div>
+        <div class="box">CL</div>
+        <div class="box">0</div>
+        <div class="box" id="box-color">=</div>
+        <div class="box" id="box-color">+</div>
+      </div>
+    </section>
+    <script src="./calculator.js"></script>
+  </body>
+</html>

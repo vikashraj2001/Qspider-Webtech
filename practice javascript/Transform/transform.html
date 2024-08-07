@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        img{
+            /* transform: rotate(1,1,1,60deg ,120deg,80deg); */
+            /* transform: scale(1); */
+        }
+        img:hover{
+            /* transform: scale(1.5); */
+            transform: skewX(15deg);
+        }
+        button{
+            background-color: blue;
+            padding: 10px 25px;
+        }
+        button:hover{
+            transform: translatex(50px);
+        }
+        i:hover{
+            transform: rotate(720deg);
+            transition: transform 5s 2s;
+        }
+        div{
+            height:100px;
+            width: 100px;
+            border: 1px solid;
+        }
+        .box1{
+            background-color: red;
+            transition: all 5s 0s;
+            transition-timing-function:linear;
+        }
+        .box1:hover{
+            width: 100%;
+            
+        }
+        .box2{
+            background-color:aqua;
+            transition: all 5s 0s;
+            transition-timing-function: ease;
+        }
+        .box2:hover{
+            width: 100%;
+        } 
+        .box3{
+            background-color:gray;
+            transition: all 5s 0s;
+            transition-timing-function: ease-in;
+        }
+        .box3:hover{
+            width: 100%;
+        }
+        .box4{
+            background-color: green;
+            transition: all 5s 0s;
+            transition-timing-function: ease-in-out;
+        }
+        .box4:hover{
+            width: 100%;
+        }
+        .box5{
+            background-color:purple;
+            transition: all 5s 0s;
+            transition-timing-function: cubic-bezier(0.42,0,0.58,1);
+        }
+        .box5:hover{
+            width: 100%;
+        }
+        ul{
+            /* list-style-type: none; */
+        }
+        ol{
+            /* list-style-type: none; */
+            
+        }
+       
+    </style>
+</head>
+<body>
+      <!-- <img src="https://cdn.pixabay.com/photo/2023/08/06/09/30/dahlia-8172522_640.jpg" alt="">
+      <button>Submit</button> 
+      <i class="fa-regular fa-star fa-6x" ></i> -->
+      <div id="box" class="box1"></div>
+      <div id="box" class="box2"></div>
+      <div id="box" class="box3"></div>
+      <div id="box" class="box4"></div>
+      <div id="box" class="box5"></div>
+
+
+      <ul type="none">
+        <li>lorem</li>
+        <li>lorem</li>
+        <li>lorem</li>
+        
+      </ul>
+      <ol type="none">
+        <li>Lorem</li>
+        <li>Lorem</li>
+        <li>Lorem</li>
+        <li>Lorem</li>
+      </ol>
+       
+</body>
+</html>

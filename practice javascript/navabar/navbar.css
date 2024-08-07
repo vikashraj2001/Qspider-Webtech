@@ -1,0 +1,41 @@
+section{
+    height: 100px;
+    width: 50%;
+    margin: 200px auto;
+    background-color:lightyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.icon{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100px; 
+    margin: 20px auto;
+    
+}
+.icon i{
+    margin-left: 15px;
+  
+   
+}
+.icon i:hover{
+    background-color: rgb(212, 212, 166);
+    width: 50px;
+    height: 35px;
+    padding-left: 20px;
+    padding-top: 3px;
+    
+    border-radius: 20px;
+}
+
+.icon h4{
+  margin-bottom: -10px;
+   
+  margin-left: 10px;
+  font-weight: 300;
+  position: absolute;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    height: 10vh;
+    width: 100%;
+   background-color: black;
+   display:flex;
+   justify-content: space-around;
+   align-items:center ;
+   padding: 0px 20px;
+}
+.logo{
+    height: 90%;
+    width: 9%;
+    border: 1px solid;
+    background-color: violet;
+}
+ i{
+    color: white;
+    font-size: 30px;
+    
+}
+
+ul{
+    height: 90%;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+
+}
+nav ul li a{
+    padding: 10px 30px;
+    background-color: aqua;
+    border-radius: 10px ;
+    text-decoration: none;
+
+}
+.bar{
+    display: none;
+}
+@media only screen and (max-width:600px){
+      .bar{
+        display:block;
+       
+      }
+      ul{
+        display: none;
+      }
+}

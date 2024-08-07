@@ -1,0 +1,28 @@
+section{
+    width: 60%;
+    height: 30%;
+     border: 1px solid;
+     margin: 0 auto;
+    background-color: bisque;
+}
+ul{
+    display: flex;
+   
+    list-style-type: none;
+    justify-content: space-evenly;
+  
+}
+i{
+    margin: 10px6;
+}
+
+ul li{
+   display: flex;
+   flex-wrap: wrap;
+  
+}
+li{
+    width: 7%;                                                
+    
+
+}

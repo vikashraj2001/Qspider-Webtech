@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.continer{
+    height: 500px;
+    width: 500px;
+    border: 1px solid;
+    margin: 50px auto;
+    display: flex;
+    
+    flex-wrap: wrap-reverse;
+ 
+     
+    
+    
+    /* align-content: space-between; */
+}
+div{
+    height: 120px;
+    width: 120px;
+    background-color: red;
+    margin: 10px;
+
+}
